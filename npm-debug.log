@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json express-poc@1.0.0 No description
+6 warn package.json express-poc@1.0.0 No repository field.
+7 warn package.json express-poc@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\edson\\workspace-node\\express-poc',
+9 verbose install   [ 'express', 'morgan', 'reuest' ] ]
+10 info preinstall express-poc@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping express@^4.10.6 C:\Users\edson\workspace-node\express-poc
+13 verbose already installed skipping morgan@^1.5.0 C:\Users\edson\workspace-node\express-poc
+14 verbose cache add [ 'reuest@2.51.0', null ]
+15 verbose cache add name=undefined spec="reuest@2.51.0" args=["reuest@2.51.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'reuest@2.51.0',
+16 verbose parsed url   path: 'reuest@2.51.0',
+16 verbose parsed url   href: 'reuest@2.51.0' }
+17 verbose cache add name="reuest" spec="2.51.0" args=["reuest","2.51.0"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '2.51.0',
+18 verbose parsed url   path: '2.51.0',
+18 verbose parsed url   href: '2.51.0' }
+19 verbose addNamed [ 'reuest', '2.51.0' ]
+20 verbose addNamed [ '2.51.0', '2.51.0' ]
+21 silly lockFile 18ed4833-reuest-2-51-0 reuest@2.51.0
+22 verbose lock reuest@2.51.0 C:\Users\edson\AppData\Roaming\npm-cache\18ed4833-reuest-2-51-0.lock
+23 verbose request where is /reuest
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id 1964c08bf670eae6
+26 verbose url raw /reuest
+27 verbose url resolving [ 'https://registry.npmjs.org/', './reuest' ]
+28 verbose url resolved https://registry.npmjs.org/reuest
+29 verbose request where is https://registry.npmjs.org/reuest
+30 info trying registry request attempt 1 at 19:27:44
+31 http GET https://registry.npmjs.org/reuest
+32 http 404 https://registry.npmjs.org/reuest
+33 verbose headers { date: 'Tue, 06 Jan 2015 00:27:42 GMT',
+33 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '52',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1420504062.589671,VS0,VE353',
+33 verbose headers   'keep-alive': 'timeout=10, max=50',
+33 verbose headers   connection: 'Keep-Alive' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { date: 'Tue, 06 Jan 2015 00:27:42 GMT',
+34 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1420504062.589671,VS0,VE353',
+34 silly registry.get     'keep-alive': 'timeout=10, max=50',
+34 silly registry.get     connection: 'Keep-Alive' } ]
+35 silly lockFile 18ed4833-reuest-2-51-0 reuest@2.51.0
+36 silly lockFile 18ed4833-reuest-2-51-0 reuest@2.51.0
+37 error 404 404 Not Found: reuest
+37 error 404
+37 error 404 'reuest' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404 It was specified as a dependency of 'express-poc'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Windows_NT 6.1.7601
+39 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+40 error cwd C:\Users\edson\workspace-node\express-poc
+41 error node -v v0.10.35
+42 error npm -v 1.4.28
+43 error code E404
+44 verbose exit [ 1, true ]
