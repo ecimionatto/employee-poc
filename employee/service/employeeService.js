@@ -4,7 +4,7 @@ var logger = require('morgan');
 
 function EmployeeService() {
   this.proxyList = function(req, respo) {
-    request.get({ url : 'https://bhubint.krfs.com/employee/list?j_username=kdiamond@krfs.com&j_password=Test1234&ert=json', rejectUnauthorized : false }).on('response', function(res) {
+    request.get({ url : 'https://xxx.test.com/employee/list?j_username=xxx@xxx.com&j_password=xxxx&ert=json', rejectUnauthorized : false }).on('response', function(res) {
       var body = '';
 
       res.on('data', function (chunk) {
@@ -23,7 +23,7 @@ function EmployeeService() {
   }
 
   this.proxyEmployee = function(req, respo) {
-    request.get({ url : 'https://bhubint.krfs.com/employee/list?j_username=kdiamond@krfs.com&j_password=Test1234&ert=json', rejectUnauthorized : false }).on('response', function(res) {
+    request.get({ url : 'https://xxx.test.com/employee/list?j_username=xxx@xxx.com&j_password=xxxx&ert=json', rejectUnauthorized : false }).on('response', function(res) {
       var body = '';
 
       res.on('data', function (chunk) {
@@ -44,7 +44,7 @@ function EmployeeService() {
 
   this.proxyUpdate = function (body, respo) {
 
-    request.put({ url : 'https://bhubint.krfs.com/employee/edit?j_username=kdiamond@krfs.com&j_password=Test1234&ert=json', rejectUnauthorized : false }).
+    request.put({ url : 'https://xxx.test.com/employee/list?j_username=xxx@xxx.com&j_password=xxxx&ert=json', rejectUnauthorized : false }).
     form(createFormData(body)).
     on('response', function(res) {
       var body = '';
@@ -105,7 +105,7 @@ function EmployeeService() {
 
   this.proxyAdd = function(body, respo) {
 
-    request.post({ url : 'https://bhubint.krfs.com/employee/add?j_username=kdiamond@krfs.com&j_password=Test1234&ert=json', rejectUnauthorized : false }).
+    request.post({ url : 'https://xxx.test.com/employee/list?j_username=xxx@xxx.com&j_password=xxxx&ert=json', rejectUnauthorized : false }).
     form(createFormData(body)).
     on('response', function(res) {
       var body = '';
